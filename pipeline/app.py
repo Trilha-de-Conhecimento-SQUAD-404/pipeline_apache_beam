@@ -8,6 +8,6 @@ with beam.Pipeline() as pipeline:
         | "Trigger Pipeline" >> beam.Create([None])
         | "Api request" >> beam.ParDo(PublicApis())
         | "JSON to csv" >> beam.Map(json_to_csv_row)
-        | "Write pages in a folder" >> beam.io.WriteToText("public_apis", 
-                                                           header="API, Description, Auth, HTTPS, Cors, Link, Category")
+        | "Write pages in a folder" >> beam.io.WriteToText("public_apis.csv", 
+                                                           header="API, Description, Auth, HTTPS, Cors, Link, Category",  num_shards=1)
     )
