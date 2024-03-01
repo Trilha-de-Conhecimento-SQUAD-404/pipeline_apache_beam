@@ -1,4 +1,3 @@
-import os
 import logging
 from apache_beam import DoFn
 from requests import get
