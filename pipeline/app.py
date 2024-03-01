@@ -5,7 +5,7 @@ from utils.method import json_to_csv_row
 with beam.Pipeline() as pipeline:
     api_csv = (
         pipeline
-        | "Trigger Pipeline" >> beam.Create([])
+        | "Trigger Pipeline" >> beam.Create([None])
         | "Api request" >> beam.ParDo(PublicApis())
         | "JSON to csv" >> beam.Map(json_to_csv_row)
         | "Write pages in a folder" >> beam.io.WriteToText("public_apis", 
