@@ -1,7 +1,7 @@
 import apache_beam as beam
 from utils.pardo import PublicApis 
 from utils.method import json_to_csv_row
-from apache_beam.dataframe.io import read_csv
+
 
 with beam.Pipeline() as pipeline:
     api_csv = (
