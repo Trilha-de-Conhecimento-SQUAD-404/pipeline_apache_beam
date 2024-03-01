@@ -1,12 +1,13 @@
 import apache_beam as beam
 from utils.pardo import PublicApis 
+from utils.method import json_to_csv_row
 
 with beam.Pipeline() as pipeline:
     api_csv = (
         pipeline
         | "Trigger Pipeline" >> beam.Create([])
         | "Api request" >> beam.ParDo(PublicApis())
-        | "JSON to csv" >> beam.Map()
+        | "JSON to csv" >> beam.Map(json_to_csv_row)
         | "Write pages in a folder" >> beam.io.WriteToText("public_apis", 
                                                            header="API, Description, Auth, HTTPS, Cors, Link, Category")
     )
