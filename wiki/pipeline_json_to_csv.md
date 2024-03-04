@@ -20,7 +20,7 @@ Este código utiliza o Apache Beam para criar um pipeline de transformação de 
 
 ![diagrama_pipeline](https://github.com/AnaJuliaMM/pipeline_apache_beam/assets/123522455/6a44aa39-4985-4a31-910e-42efd7637bba)
 
-## Código
+## [Código](../pipeline)
 
 ### 1. App 
 Cria o objeto Pipeline e estrutura as seguintes tarefas:
