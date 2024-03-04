@@ -2,8 +2,8 @@
 Este repositório contém uma pipeline batch no Apache Beam, que transforma dados JSON em um arquivo CSV
 
 Acesse a documentação: 🔗
-[Apache Beam](./wiki/apache.md)
-[Execução da Pipeline](./wiki/execucao.md)
+- [Apache Beam](./wiki/apache.md)
+- [Execução da Pipeline](./wiki/execucao.md)
 
 ## Estrutura do projeto: 
 - `pipeline`: scripts para a criação da pipeline
@@ -40,6 +40,13 @@ Instale os requirements.txt:
 ```bash
   pip install -r requirements.txt
 ```
+
+Execute a pipeline
+```
+  cd /pipeline
+  python app.py
+```
+
 ### Com o Docker
 Construção da imagem:
 ```
@@ -50,6 +57,8 @@ Para rodar a imagem no Docker:
 ```
 docker run -d apache-beam-json-to-csv
 ```
-### Execução do código:
-https://github.com/AnaJuliaMM/pipeline_apache_beam/blob/feature/creating_pipeline/wiki/media/execucao/video_pipeline_apache_beam.mkv
+
+## Resultado
+https://github.com/AnaJuliaMM/pipeline_apache_beam/assets/123522605/48d23ed0-fb43-43bd-81b6-82932d4b2336
+
 
