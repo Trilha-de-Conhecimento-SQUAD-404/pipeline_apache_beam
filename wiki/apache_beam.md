@@ -58,5 +58,5 @@ Uma "PTransform" representa uma operação de processamento de dados, ou uma eta
 5. Execute o pipeline usando o Pipeline Runner designado.
 
 
-## [Exemplo de Pipeline no Apache Beam](./execucao.md)
+## [Exemplo de Pipeline no Apache Beam](./pipeline_json_to_csv.md)
 Temos um exemplo de pipeline de tranformação de dados escrita utilizando o Apache Beam com execução local. Esse pipeline recebe dados JSON de uma API  e os transforma em um arquivo CSV.

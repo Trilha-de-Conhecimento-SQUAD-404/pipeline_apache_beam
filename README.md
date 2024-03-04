@@ -2,8 +2,8 @@
 Este repositório contém um pipeline batch no Apache Beam, que transforma dados JSON em um arquivo CSV
 
 Acesse a documentação: 🔗
-- [Apache Beam](./wiki/apache.md)
-- [Execução do Pipeline](./wiki/execucao.md)
+- [Apache Beam](./wiki/apache_beam.md)
+- [Execução do Pipeline](./wiki/pipeline_json_to_csv.md)
 
 ## Estrutura do projeto: 
 - `pipeline`: scripts para a criação do pipeline
