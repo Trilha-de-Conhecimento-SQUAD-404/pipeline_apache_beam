@@ -43,7 +43,7 @@ Instale os requirements.txt:
 
 Execute a pipeline
 ```
-  cd /pipeline
+  cd ./pipeline/
   python app.py
 ```
 
