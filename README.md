@@ -1,12 +1,12 @@
 # Pipeline de tranformação de dados
-Este repositório contém uma pipeline batch no Apache Beam, que transforma dados JSON em um arquivo CSV
+Este repositório contém um pipeline batch no Apache Beam, que transforma dados JSON em um arquivo CSV
 
 Acesse a documentação: 🔗
 - [Apache Beam](./wiki/apache.md)
-- [Execução da Pipeline](./wiki/execucao.md)
+- [Execução do Pipeline](./wiki/execucao.md)
 
 ## Estrutura do projeto: 
-- `pipeline`: scripts para a criação da pipeline
+- `pipeline`: scripts para a criação do pipeline
 - `wiki`: documentação e recursos
 - `Dockerfile`: definir e construir uma imagem Docker
 
