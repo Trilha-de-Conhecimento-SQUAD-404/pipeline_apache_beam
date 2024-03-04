@@ -32,7 +32,16 @@ São os componentes responsáveis por executar os pipelines em um sistema de pro
 
 ## Conceitos
 
-### 1. Pipeline
+
+### 1. PCollection
+
+Um "PCollection" representa um conjunto de dados distribuídos no qual o pipeline do Apache Beam opera. Esse conjunto de dados pode ser limitado, originando-se de uma fonte fixa como um arquivo, ou ilimitado, vindo de uma fonte de atualização contínua (streaming). Os "PCollections" são as entradas e saídas de cada etapa do pipeline.
+
+### 2. PTransform
+
+Uma "PTransform" representa uma operação de processamento de dados, ou uma etapa, em seu pipeline. Todo "PTransform" recebe um ou mais PCollection objetos como entrada, executa uma função de processamento, e produz zero ou mais PCollectionobjetos de saída.
+
+### 3. Pipeline
 
 O Pipeline é um objeto no Apache Beam que encapsula todas as tarefas de processamento de dados, do início ao fim. Isso inclui a leitura de dados de entrada, a transformação desses dados e a gravação de dados de saída.
 
@@ -41,15 +50,7 @@ O Pipeline é um objeto no Apache Beam que encapsula todas as tarefas de process
 
 - **Pipeline Ramificada**
   ![image](https://github.com/AnaJuliaMM/pipeline_apache_beam/assets/123522605/65bdfb8f-3e45-4c57-aaaa-9644b528b7cd)
-
-### 2. PCollection
-
-Um "PCollection" representa um conjunto de dados distribuídos no qual o pipeline do Apache Beam opera. Esse conjunto de dados pode ser limitado, originando-se de uma fonte fixa como um arquivo, ou ilimitado, vindo de uma fonte de atualização contínua (streaming). Os "PCollections" são as entradas e saídas de cada etapa do pipeline.
-
-### 3. PTransform
-
-Uma "PTransform" representa uma operação de processamento de dados, ou uma etapa, em seu pipeline. Todo "PTransform" recebe um ou mais PCollection objetos como entrada, executa uma função de processamento, e produz zero ou mais PCollectionobjetos de saída.
-
+  
 ## Estrutura de um pipeline Apache Beam
 1. Crie um objeto `Pipeline`  e defina as opções de execução do pipeline, incluindo o Pipeline Runner.
 2. Crie uma PCollection inicial, usando os transformadores IOs para ler dados de fonte ou usando o método `Create` para construir uma PCollection  a partir de dados na memória.
