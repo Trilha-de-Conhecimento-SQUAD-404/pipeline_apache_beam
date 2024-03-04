@@ -51,5 +51,5 @@ Para rodar a imagem no Docker:
 docker run -d apache-beam-json-to-csv
 ```
 ### Execução do código:
-https://github.com/AnaJuliaMM/pipeline_apache_beam/blob/feature/creating_pipeline/wiki/media/execucao/video_pipeline_apache_beam.mkv
+https://github.com/AnaJuliaMM/pipeline_apache_beam/blob/feature/creating_pipeline/wiki/media/execution/video_pipeline_apache_beam.mkv
 
