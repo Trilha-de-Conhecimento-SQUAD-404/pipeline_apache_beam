@@ -12,7 +12,7 @@ O Apache Beam é um modelo de programação unificado de código aberto para pip
 <img width="600" alt="image" src="https://github.com/AnaJuliaMM/pipeline_apache_beam/blob/feature/creating_wiki/wiki/media/apache/beam_img2.png">
 
 
-## Conceitos 
+## Arquitetura 
 ### 1. Beam SDK (Software Development Kit)
 
 O SDK do Beam, ou Kit de Desenvolvimento de Software do Beam, é um conjunto de ferramentas e bibliotecas que permite aos desenvolvedores criar pipelines de processamento de dados usando o Apache Beam. Ele fornece APIs para definir fontes de dados, transformações e saídas, além de oferecer suporte para execução em diferentes runners (executores) de pipeline.
@@ -33,4 +33,7 @@ Refere-se ao processo de criação de pipelines de processamento de dados usando
 ![diagrama](./media/apache/beam_img.png)
 
 
-
+## Conceitos
+### 1. Pipeline
+### 2. PCollection
+### 3. PTransform
