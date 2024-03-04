@@ -14,7 +14,7 @@ A função usada para fazer a requisição para a API é conhecida como ParDo, a
 Essa função é capaz de processar dados em paralelo, o que significa que pode executar várias tarefas ou operações simultaneamente. 
 No contexto da pipeline de dados, o ParDo é frequentemente utilizado para aplicar uma transformação em **cada elemento** de um conjunto de dados de forma independente e paralela.
 
-<img width="900" alt="image" src="https://github.com/AnaJuliaMM/pipeline_apache_beam/blob/feature/creating_pipeline/wiki/media/execucao/pardo-img.png">
+<img width="100" alt="image" src="https://github.com/AnaJuliaMM/pipeline_apache_beam/blob/feature/creating_wiki/wiki/media/others/pardo.png">
 
 ## Código e explicação
 
@@ -27,12 +27,12 @@ Em seguida, os dados transformados são gravados em um arquivo CSV chamado "publ
 2. Obtém os dados em formato JSON
 3. Transforma os dados de JSON para CSV
 4. Grava os dados transformados em um arquivo CSV chamado "public_apis"
-<img width="900" alt="image" src="https://github.com/AnaJuliaMM/pipeline_apache_beam/blob/feature/creating_pipeline/wiki/media/execucao/app-img.png">
+<img width="900" alt="image" src="https://github.com/AnaJuliaMM/pipeline_apache_beam/blob/feature/creating_wiki/wiki/media/code/app-img.png">
 
 ### ParDo
 
 Este código tem a função PublicApis que estende a classe DoFn, onde realiza uma requisição HTTP para uma API pública, extrai os dados JSON e retorna cada API individualmente para a pipeline do Apache Beam, tratando os erros adequadamente e registrando as informações no log, no arquivo "json_to_csv.log"
-<img width="900" alt="image" src="https://github.com/AnaJuliaMM/pipeline_apache_beam/blob/feature/creating_pipeline/wiki/media/execucao/pardo-img.png">
+<img width="900" alt="image" src="https://github.com/AnaJuliaMM/pipeline_apache_beam/blob/feature/creating_wiki/wiki/media/code/pardo-img.png">
 
 
 ### Method
@@ -46,5 +46,5 @@ Por exemplo, se o objeto JSON fosse:
  }
 
 a função retornaria uma string CSV como "João,30,São Paulo"
-<img width="900" alt="image" src="https://github.com/AnaJuliaMM/pipeline_apache_beam/blob/feature/creating_pipeline/wiki/media/execucao/method-img.png">
+<img width="900" alt="image" src="https://github.com/AnaJuliaMM/pipeline_apache_beam/blob/feature/creating_wiki/wiki/media/code/method-img.png">
 
