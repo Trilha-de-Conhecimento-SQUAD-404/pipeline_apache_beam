@@ -56,7 +56,7 @@ A função retornaria uma string CSV como
 <img width="900" alt="image" src="https://github.com/AnaJuliaMM/pipeline_apache_beam/blob/feature/creating_wiki/wiki/media/code/method-img.png">
 
 ### 4. Resultado
-https://github.com/AnaJuliaMM/pipeline_apache_beam/assets/123522605/48d23ed0-fb43-43bd-81b6-82932d4b2336
+![Captura de tela 2024-03-04 142926](https://github.com/AnaJuliaMM/pipeline_apache_beam/assets/123522605/56baadb7-1c2f-4c9e-91a2-4867d9f48a84)
 
 ## Conclusão 
 
