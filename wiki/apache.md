@@ -32,7 +32,7 @@ São executores específicos para funções (ou "Fn", abreviação de "função"
 
 ### 1. Pipeline
 
-A Pipeline no Apache Bean encapsula toda a sua tarefa de processamento de dados, do início ao fim. Isso inclui a leitura de dados de entrada, a transformação desses dados e a gravação de dados de saída. Todos os programas de driver do Beam devem criar um arquivo Pipeline. Ao criar o Pipeline, você também deve especificar as opções de execução que informam Pipelineonde e como executar.
+O Pipeline no Apache Bean encapsula toda a sua tarefa de processamento de dados, do início ao fim. Isso inclui a leitura de dados de entrada, a transformação desses dados e a gravação de dados de saída. Todos os programas de driver do Beam devem criar um arquivo Pipeline. Ao criar o Pipeline, você também deve especificar as opções de execução que informam Pipelineonde e como executar.
 
 ![Pipelines](https://blog.zooxsmart.com/hubfs/imagem-pt-Artigo-de-Blog--Pipeline-de-dados.jpg)
 
