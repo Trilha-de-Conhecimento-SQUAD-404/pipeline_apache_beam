@@ -11,8 +11,10 @@ Acesse a documentação: 🔗
 - `Dockerfile`: definir e construir uma imagem Docker
 
 ## Pré- requisitos
+- Apache Beam (versão 2.54.0)
 - Python (versão 3.10 ou superior)
-- Docker e docker-compose
+- Docker (versão 24.0.6)
+- docker-compose (version v2.21.0-desktop.1)
 
 ## Como executar
 ### Localmente
