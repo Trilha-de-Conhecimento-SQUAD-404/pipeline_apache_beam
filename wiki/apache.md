@@ -52,4 +52,4 @@ Uma "PTransform" representa uma operação de processamento de dados, ou uma eta
 
 
 ## [Exemplo de Pipeline no Apache Beam](./execucao.md)
-Temos um exemplo de pipeline de tranformação de dados escrita utilizando o Apache Beam com execução local. Essa pipeline recebe dados JSON de uma API  e os transforma em um arquivo CSV.
+Temos um exemplo de pipeline de tranformação de dados escrita utilizando o Apache Beam com execução local. Esse pipeline recebe dados JSON de uma API  e os transforma em um arquivo CSV.
