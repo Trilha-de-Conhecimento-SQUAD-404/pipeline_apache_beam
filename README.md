@@ -1,4 +1,4 @@
-# Pipeline de tranformação de dados
+# Pipeline de transformação de dados
 Este repositório contém um pipeline batch no Apache Beam, que transforma dados JSON em um arquivo CSV
 
 Acesse a documentação: 🔗
