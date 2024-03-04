@@ -50,6 +50,13 @@ Um "PCollection" representa um conjunto de dados distribuídos no qual o pipelin
 
 Uma "PTransform" representa uma operação de processamento de dados, ou uma etapa, em seu pipeline. Todo "PTransform" recebe um ou mais PCollection objetos como entrada, executa uma função de processamento, e produz zero ou mais PCollectionobjetos de saída.
 
+## Estrutura de um programa Apache Beam
+1. Crie um objeto `Pipeline`  e defina as opções de execução do pipeline, incluindo o Pipeline Runner.
+2. Crie uma PCollection inicial, usando os transformadores IOs para ler dados de fonte ou usando o método `Create` para construir uma PCollection  a partir de dados na memória.
+3. Aplique PTransform a cada PCollection. As transformações podem alterar, filtrar, agrupar, analisar ou processar os elementos em um arquivo PCollection. 
+4. Use IOs para gravar o(s) PCollection(s) final(is) em uma fonte externa.
+5. Execute o pipeline usando o Pipeline Runner designado.
+
 
 ## [Exemplo de Pipeline no Apache Beam](./execucao.md)
 Temos um exemplo de pipeline de tranformação de dados escrita utilizando o Apache Beam com execução local. Esse pipeline recebe dados JSON de uma API  e os transforma em um arquivo CSV.
