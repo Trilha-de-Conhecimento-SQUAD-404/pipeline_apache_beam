@@ -16,9 +16,9 @@ A função usada para fazer a requisição para a API é conhecida como ParDo, a
 <img width="100" alt="image" src="https://github.com/AnaJuliaMM/pipeline_apache_beam/blob/feature/creating_wiki/wiki/media/others/pardo.png">
 
 ## Fluxo de trabalho
-Este código utiliza o Apache Beam para criar um pipeline de transformação de dados. O pipeline inclui uma etapa em que os dados são obtidos através de uma função ParDo, que transforma o formato dos dados de JSON para CSV. Em seguida, os dados transformados são gravados em um arquivo CSV chamado "public_apis"
+Este pipeline utiliza o Apache Beam para criar um pipeline de transformação de dados. O pipeline inclui uma etapa em que os dados são obtidos através de uma função ParDo, que transforma o formato dos dados de JSON para CSV. Em seguida, os dados transformados são gravados em um arquivo CSV chamado "public_apis"
 
-![diagrama_pipeline](https://github.com/AnaJuliaMM/pipeline_apache_beam/assets/123522455/6a44aa39-4985-4a31-910e-42efd7637bba)
+![diagrama_pipeline](https://github.com/AnaJuliaMM/pipeline_apache_beam/assets/123522455/a8e1b7b8-3e00-4c59-8cf1-c659fc25e807)
 
 ## [Código](../pipeline)
 
