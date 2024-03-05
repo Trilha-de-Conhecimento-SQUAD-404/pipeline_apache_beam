@@ -26,10 +26,7 @@ São os componentes responsáveis por executar os pipelines em um sistema de pro
 - Apache Spark
 - Google Cloud Dataflow
 - entre outros.
-
-
-![diagrama](./media/apache/beam_img.png)
-
+![diagrama](https://github.com/AnaJuliaMM/pipeline_apache_beam/assets/123522455/38785ffe-0b7a-4b77-b25f-d28b9ddcf023)
 ## Conceitos
 
 
