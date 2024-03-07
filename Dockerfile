@@ -1,7 +1,11 @@
-FROM apache/beam_python3.7_sdk:2.25.0
+FROM apache/beam_python3.8_sdk:latest
+
+ENTRYPOINT ["/opt/apache/beam/boot", "--worker_pool"]
+
+# WORKDIR /usr/src/app
 
 RUN pip install apache-beam
 
-COPY ./pipeline /pipeline
+COPY ./pipeline .
 
-CMD ["python3", "/pipeline/app.py"]
+CMD [ "python", "app.py" ]
