@@ -86,6 +86,8 @@ Execute a pipeline
 python app.py
 ```
 
+Obs: execute `exit` para sair do terminal bash do contêiner
+
 ## Resultado esperado
 
 ### Verifique o arquivo csv gerado na pasta `pipeline/data/` ✨
